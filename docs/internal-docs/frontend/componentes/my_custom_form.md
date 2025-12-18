@@ -12,6 +12,7 @@ Um **wrapper padronizado para formulários** no Next.js, tipado com TypeScript, 
 
 ## **Props:**
 
+```md
 - `onSubmit`— (values: T) => Promise<void>: Função chamada no submit. Pode ser server action.
 - `schema`— ZodSchema<T>: Validação dos valores.
 - `icon`— ReactNode (opcional): Ícone customizado. Se não passado, usa ícone padrão do tipo.
@@ -19,8 +20,8 @@ Um **wrapper padronizado para formulários** no Next.js, tipado com TypeScript, 
 - `checkStrategy` — “any” | “all” (opcional): se precisa de **qualquer** ou **todas** as permissões (default: `"all"`).
 - `actions` — array de ReactNode (opcional): Botões ou links adicionais (ex.: “Tentar novamente”, “Ir para Dashboard”).
 - `className` — string (opcional): para estilização extra.
+```
 
-```md
 ```jsx
 <StateView 
   type="empty" 
@@ -29,5 +30,4 @@ Um **wrapper padronizado para formulários** no Next.js, tipado com TypeScript, 
     <Button key="add" onClick={() => openUserForm()}>Adicionar usuário</Button>
   ]}
 />
-```
 ```
