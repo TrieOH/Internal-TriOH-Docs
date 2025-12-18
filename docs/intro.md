@@ -8,7 +8,7 @@ Bem vindo à documentação da TrieOH, por aqui você achará material de suport
 
 ## Serviços
 
-[GoAuth](docs/services/goauth)
+[GoAuth](services/goauth)
 
 Get started by **creating a new site**.
 
