@@ -24,6 +24,7 @@ Fica de responsabilidade da página em questão implementar a lógica de redirec
 
 ## **Props:**
 
+```md
 - `children` — ReactNode: Conteúdo autorizado, oque deve ser renderizado na página, caso o usuário tenha permissão.
 - `callbackUrl` — string(opcional): URL de destino para onde o usuário deve voltar(ser redirecionado) após o sucesso. Deve ser validada (usar caminhos relativos ou validados para evitar open-redirect). Se omitido a atual é usada, essa é a url que vai em ?next={callbackUrl}. **"para onde voltar depois da autenticação"**.
 - `targetUrl` — string(opcional): URL da página a qual o usuário será redirecionado. Se não informado ele não é redirecionado. **"pra onde mandar quando a permissão não existe"**.
@@ -37,6 +38,7 @@ Fica de responsabilidade da página em questão implementar a lógica de redirec
 - `message` — string(opcional): Mensagem que diz ao usuário que ele será redirecionado para a determinada página, se não fornecida usar uma padrão.
 - `actions` — array de ReactNode (opcional): botões/links extras a mostrar (ex.: “Entrar com Google”, “Entrar com GitHub”, “Falar com suporte”).
 - `className` — string (opcional): para estilização extra.
+```
 
 ```jsx
 <Guard 

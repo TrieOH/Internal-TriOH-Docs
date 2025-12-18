@@ -20,6 +20,7 @@ A intenção para que ele foi criado é uso em conjunto com algum DataDisplay, s
 
 ## **Props:**
 
+```md
 - `type`— “error” | “loading” | “empty” | “restricted”: O tipo de estado que vai ser apresentado e consequentemente define o estilo do state view, tipo icone, cores, etc…
 - `message`— string (opcional): Mensagem a ser exibida para o usuário. Se omitida, usa mensagem padrão por `type`.
 - `icon`— ReactNode (opcional): Ícone customizado. Se não passado, usa ícone padrão do tipo.
@@ -27,6 +28,7 @@ A intenção para que ele foi criado é uso em conjunto com algum DataDisplay, s
 - `checkStrategy` — “any” | “all” (opcional): se precisa de **qualquer** ou **todas** as permissões (default: `"all"`).
 - `actions` — array de ReactNode (opcional): Botões ou links adicionais (ex.: “Tentar novamente”, “Ir para Dashboard”).
 - `className` — string (opcional): para estilização extra.
+```
 
 ```jsx
 <StateView 
