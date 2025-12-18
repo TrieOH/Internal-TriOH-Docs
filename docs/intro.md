@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# TrieOH docs
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bem vindo à documentação da TrieOH, por aqui você achará material de suporte e documentação sobre todas os nossos serviços.
 
-## Getting Started
+## Serviços
+
+[GoAuth](docs/services/goauth)
 
 Get started by **creating a new site**.
 
