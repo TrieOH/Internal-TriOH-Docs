@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # GoAuth
 
-Nosso serviço Provedor de Identidade (IdP)
+GoAuth é um serviço provedor de identidade (IdP) feito com extensibilidade e flexibilidade em mente
