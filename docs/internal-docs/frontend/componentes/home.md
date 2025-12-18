@@ -7,12 +7,12 @@ Este catálogo contém uma lista organizada dos componentes disponíveis para us
 
 (Aqui só inclui os componentes compartilhados os específicos estão atrelados as suas próprias features.)
 
-[Navigation](internal-docs/frontend/componentes/navigation)
+[Navigation](navigation)
 
-[AccessControl](internal-docs/frontend/componentes/access_control)
+[AccessControl](access_control)
 
-[Feedback](internal-docs/frontend/componentes/feedback)
+[Feedback](feedback)
 
-[DataDisplay](internal-docs/frontend/componentes/data_display)
+[DataDisplay](data_display)
 
-[Form](internal-docs/frontend/componentes/form)
+[Form](form)

@@ -58,12 +58,12 @@ sidebar_position: 1
 
 ## Detalhes
 
-[Arquitetura](internal-docs/frontend/arquitetura)
+[Arquitetura](arquitetura)
 
-[Layout](internal-docs/frontend/layout)
+[Layout](layout)
 
-[Catálogo de Componentes Compartilhados](internal-docs/frontend/componentes/home)
+[Catálogo de Componentes Compartilhados](componentes/home)
 
-[Lib](internal-docs/frontend/lib)
+[Lib](lib)
 
-[Fluxo Comum](internal-docs/frontend/fluxo)
+[Fluxo Comum](fluxo)
